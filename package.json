@@ -1,0 +1,48 @@
+{
+  "name": "angular2-webpack-starterkit",
+  "version": "1.0.0",
+  "description": "Angular 2 Starterkit with Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install",
+    "build": "node ./node_modules/webpack/bin/webpack.js --config webpack.config.js --progress --colors --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brion25/angular2-webpack-starterkit.git"
+  },
+  "keywords": [
+    "angular",
+    "sass"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "homepage": "https://github.com/brion25/angular2-webpack-starterkit.git#readme",
+  "engines": {
+    "node": ">=6.1.0",
+    "npm": ">=3.8.6"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
+    "ts-loader": "0.8.2",
+    "typescript": "1.8.10",
+    "typings": "1.3.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.4",
+    "@angular/compiler": "2.0.0-rc.4",
+    "@angular/core": "2.0.0-rc.4",
+    "@angular/forms": "0.2.0",
+    "@angular/http": "2.0.0-rc.4",
+    "@angular/platform-browser": "2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+    "@angular/router": "3.0.0-beta.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "0.6.12"
+  }
+}
